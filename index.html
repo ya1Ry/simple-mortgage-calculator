@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Mortgage Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="elements-wrapper whitediv">
+			<h2 class="section-title"><u>Mortgage Calculator</u></h2>
+  			<form>
+				<p><u>Price of the property:</u></p>
+				<input type="number" id="priceOfProperty" name="" class="inputcalc" placeholder="Amount in USD">
+				<p><u>Down payment:</u></p>
+				<input type="number" id="initialDeposit" name="" class="inputcalc" placeholder="Amount in USD">
+				<p><u>Length of loan (years):</u></p>
+				<input type="range" class="slider" id="termInYears" name="vol" value="5" min="5" max="40" step="5" oninput="this.nextElementSibling.value = this.value">
+				<output>5</output>
+				<p><u>Interest rate:</u></p>
+				<input type="range" class="slider" id="interestRate" name="vol" value="3" min="1.00" max="9.99" step="0.1" oninput="this.nextElementSibling.value = this.value">
+				<output>3</output>%
+			</form>
+  			<br>
+			<button type="button" class="submitcalc" onclick="returnInfo()">Calculate</button>
+			<p id="result"></p>
+   		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
