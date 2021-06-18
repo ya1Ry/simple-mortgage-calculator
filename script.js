@@ -43,7 +43,7 @@ function returnInfo() {
 		var payoff = pmt * np
 		var finalResultMonthly = Math.abs(Math.round(pmt));
 		var finalResultTotal = Math.abs(Math.round(payoff));
-		document.getElementById('result').innerHTML=('<br/>Monthly payments:'+'<br/>'+'$'+finalResultMonthly+'<br/>'+'Total payments:'+'<br/>'+'$'+finalResultTotal);
+		document.getElementById('result').innerHTML=('<br>Monthly payments:'+'<br>'+'$'+finalResultMonthly+'<br>'+'Total payments:'+'<br>'+'$'+finalResultTotal);
 
 	}
 
