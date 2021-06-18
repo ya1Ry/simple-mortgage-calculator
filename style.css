@@ -55,22 +55,6 @@ input[type=text] {
   background: #04AA6D;
   cursor: pointer;
 }
-.element-wrapper.div1{
-	display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 40px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
 .elements-wrapper.whitediv {
     padding: 20px;
     border: 1px solid #9b9b9b;
